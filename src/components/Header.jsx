@@ -9,13 +9,14 @@ function BasicExample() {
     <Navbar expand="lg" className="bg-dark text-white">
       <Container>
         <Navbar.Brand href="/" className="text-white">Auto Horizon</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
+        
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/" className="text-white">Home</Nav.Link>
             <Nav.Link href="/footer"  className="text-white">Contact</Nav.Link>
             <NavDropdown title="Car Manufactures" id="basic-nav-dropdown" className="text-white">
-            <NavDropdown.Item href="https://www.benz.com/" target="_blank">Mercedes Benz</NavDropdown.Item>
+            <NavDropdown.Item href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj7ltnppu-IAxVsq2YCHVuLCa4YABAAGgJzbQ&co=1&ase=2&gclid=Cj0KCQjw3vO3BhCqARIsAEWblcCZ6-wplClWc7CFedIOp490EMbUIe21bYMNeFP_WjSYICypKGIQCK8aAtreEALw_wcB&ohost=www.google.com&cid=CAESVuD24gyvOO4dBofaMG5f78KYf2awk-TDxNwjXebBO2hHqGL9SsKcEOcQKmUTGxj6hlEJTEyHdu-t_gHbujuXvmuEIBYjx5ydlU830yOSHcKM5MIWl-x1&sig=AOD64_0a58RTwEL0E2W3Dux4n1OqjSQHWw&q&nis=4&adurl&ved=2ahUKEwiXi9Lppu-IAxUqUGwGHWtFNIAQ0Qx6BAgJEAE" target="_blank">Mercedes Benz</NavDropdown.Item>
               <NavDropdown.Item href="https://www.bmw.com/" target="_blank">BMW</NavDropdown.Item>
               <NavDropdown.Item href="https://www.toyota.com/" target="_blank">Toyota</NavDropdown.Item>
               <NavDropdown.Item href="https://www.ford.com/" target="_blank">Ford</NavDropdown.Item>
